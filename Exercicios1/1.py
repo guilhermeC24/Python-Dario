@@ -1,6 +1,6 @@
-var1 = input("Insira um dia da semana ('xxxx-Feira' ou 'Sábado' etc...)\nR: ")
+dia = input("Insira um dia da semana ('xxxx-Feira' ou 'Sábado' etc...)\nR: ")
 
-match var1:
+match dia:
     case "Segunda-Feira":
         print("Dia útil")
     case "Terça-Feira":

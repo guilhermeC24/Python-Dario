@@ -1,13 +1,13 @@
-var1 = int(input("Insira uma nota (0-100)\nR: "))
+nota = int(input("Insira uma nota (0-100)\nR: "))
 
-match var1:
-    case _ if var1 > -1 and var1 < 50:
+match nota:
+    case _ if nota > -1 and nota < 50:
         print("Insuficiente")
-    case _ if var1 > 49 and var1 < 70:
+    case _ if nota > 49 and nota < 70:
         print("Suficiente")
-    case _ if var1 > 69 and var1 < 90:
+    case _ if nota > 69 and nota < 90:
         print("Bom")
-    case _ if var1 > 89:
+    case _ if nota > 89:
         print("Excelente")
     case _:
         print("Valor inválido ou não está no intervalo 0-100.")
